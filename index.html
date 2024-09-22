@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="this is the description">
+    <meta name="keywords" content="java,html,css,go,react,angular">
+    <meta name="author" content="Dilsha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="Assest/image/logo.png">
+    <link rel="stylesheet" href="Assest/normalize.css">
+    <!--AOS LIBRARY-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--BOX ICON-->
+    <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- REMIX BOX ICON-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+          rel="stylesheet"/>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Dilsha Perera</title>
+
+    <style>
+        *{
+           margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            border: none;
+            outline: none;
+            font-family: -apple-system, sans-serif;
+        }
+
+        :root{
+            background-color: white;
+
+        }
+
+        body{
+            background: white;
+
+        }
+        section{
+            min-height: 100vh;
+            padding: 10rem 9% 2rem;
+        }
+        .header{
+            position: fixed;
+            width: 100%;
+            height: 80px;
+            top: 0;
+            bottom: 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem 5%;
+            background: #057244;
+            backdrop-filter: blur(10px);
+            transition:  all 0.5s ease;
+
+        }
+      .logo{
+         font-size: 2rem;
+          color: black;
+          font-weight: 1000;
+          transition: 0.3s ease;
+          font-family: "Caveat", cursive;
+      }
+      .logo>span{
+          color: darkgreen;
+          font-family: "Caveat", cursive;
+      }
+      .logo:hover{
+          transform: scale(1.05);
+      }
+
+      .navbar a{
+          font-size: 1rem;
+          color: white;
+          letter-spacing: 0.05rem;
+       /*   word-spacing: 50px;*/
+          margin: 0px 20px;
+          font-weight: 600;
+      }
+
+     .navbar a:hover{
+         color: black ; /*nav eke menu eka touch krnakota green wenawa*/
+         transition: .3s;
+     }
+
+     #menu-icon{
+         font-size: 1.5rem;
+         color: white;
+         cursor: pointer;
+         display: none;
+     }
+
+     /*-----HOME-----*/
+
+
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">DIL<span>S</span>HA</div>
+        <nav class="navbar">
+            <!--MENU-->
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="services.html">SERVICES</a>
+            <a href="contact.html">CONTACT</a>
+
+            <div class="bx bx-menu icon" id="menu-icon"></div>
+        </nav>
+    </header>
+
+    <section>
+
+    </section>
+</body>
+</html>
